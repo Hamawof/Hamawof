@@ -145,7 +145,7 @@ a, a:hover, a:focus {
 }
 
 #containerb {
-  height: 100%;
+  height: calc(100%-50px);
   background-color: black;
   text-align: center;
   color: white;

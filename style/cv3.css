@@ -89,6 +89,13 @@ a, a:hover, a:focus {
   margin-top: 50px;
 }
 
+@media screen and (max-width: 767px)
+{
+  #profil {
+    width: 120px;
+  }
+}
+
 #fondaccueil {
   margin: 0;
   padding: 0;
@@ -173,9 +180,5 @@ h3 {
     width: 50%;
     margin: 0 auto;
     font-size: 1em;
-
-  #profil {
-    width: 130px;
-    }
   }
 }

@@ -1,0 +1,171 @@
+body {
+  padding-top: 50px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 18px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+a, a:hover, a:focus {
+  color: #16B84E;
+}
+
+.heightmax {
+  height: 100%;
+}
+/* Navbar Responsive */
+
+.navbar-nav {
+  animation-duration: 2s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  text-align: center;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+.navbar-default {
+  background-color: #16B84E; /* couleur de fond */
+  border: 0px;
+}
+
+.menuitem {
+  font-weight: bold; /* style écriture */
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white; /* bordure bouton responsive */
+    background-color: white; /* fond du bouton */
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+
+.iconleft {
+  padding-right: 12px;
+  height: 20px;
+  top: -1px;
+  position: relative;
+}
+/* Fin Navbar */
+
+.row {
+  margin: 0px;
+}
+#profil {
+  width: 170px;
+  border-radius: 30%;
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+#fondaccueil {
+  margin: 0;
+  padding: 0;
+  background: url(img/fond3.jpg) no-repeat scroll 0 0 / cover;
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
+  background-size: cover; /* version standardisée */
+  position: absolute;
+  background-position: center center;
+  width: 100%;
+  height: calc(100% - 50px);
+}
+
+#titleofpage {
+  color: #16B84E;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 48px;
+}
+
+#bounce {
+  color: #16B84E;
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  animation: bounce 0.35s ease infinite alternate;
+}
+
+@keyframes bounce {
+  from {transform: translateY(0);}
+  to   {transform: translateY(-20px);}
+}
+
+#soustitleofpage {
+  color: #16B84E;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 44px;
+}
+
+.hello {
+  color: #16B84E;
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 0px;
+  margin-top: calc(10%);
+  font-weight: bold;
+}
+
+#me {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+#containerb {
+  height: 100%;
+  background-image: url("../img/fond5.jpeg");
+  text-align: center;
+  color: white;
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
+.txtprofil {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 767px)
+{
+  .txtprofil {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1em;
+    margin-top: 50px;
+  }
+}

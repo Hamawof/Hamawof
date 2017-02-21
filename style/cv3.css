@@ -2,7 +2,6 @@ body {
   padding-top: 50px;
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 18px;
-  background-color: black;
   width: 100%;
   height: 100%;
 }
@@ -106,11 +105,10 @@ a, a:hover, a:focus {
 #fondaccueil {
   margin: 0;
   padding: 0;
-  background: url(img/fond3.jpg) no-repeat scroll 0 0 / cover;
-  -webkit-background-size: cover; /* pour anciens Chrome et Safari */
-  background-size: cover; /* version standardisée */
+  background: url(img/fond3.jpg) no-repeat scroll 0 0;
+  -webkit-background-size: cover;
+  background-size: cover;
   position: absolute;
-  background-position: center center;
   width: 100%;
   height: calc(100% - 50px);
   background-attachment: fixed;
@@ -132,7 +130,7 @@ a, a:hover, a:focus {
   font-size: 40px;
   animation: bounce 0.35s ease infinite alternate;
   position: absolute;
-  bottom: 5%;
+  bottom: 10%;
   right: 50%;
 }
 

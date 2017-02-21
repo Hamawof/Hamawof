@@ -105,11 +105,13 @@ a, a:hover, a:focus {
 #fondaccueil {
   margin: 0;
   padding: 0;
-  background: url(img/fond3.jpg) fixed;
+  background: url(img/fond3.jpg) no-repeat scroll 0 0;
+  -webkit-background-size: cover;
   background-size: cover;
   position: absolute;
   width: 100%;
   height: calc(100% - 50px);
+  background-attachment: fixed;
   overflow: hidden;
 }
 
@@ -160,7 +162,7 @@ a, a:hover, a:focus {
   height: 100%;
   background: url('../img/imghd.jpeg') fixed;
   background-size: cover;
-
+  -webkit-background-size: cover;
 }
 
 #containerb {
@@ -170,6 +172,7 @@ a, a:hover, a:focus {
   text-align: center;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
+  position: absolute;
 }
 
 .txtprofil {

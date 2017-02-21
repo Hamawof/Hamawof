@@ -138,7 +138,7 @@ a, a:hover, a:focus {
 
 #me {
   height: 100%;
-  background: url('../img/imghd.jpeg') fixed;
+  background: url('../img/imghd.jpeg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -149,8 +149,7 @@ a, a:hover, a:focus {
 
 #containerb {
   height: 100%;
-  width: 100%;
-  background: url('../img/imghd3.jpg') fixed;
+  background: url('../img/imghd3.jpg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

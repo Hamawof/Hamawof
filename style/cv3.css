@@ -148,7 +148,7 @@ a, a:hover, a:focus {
 }
 
 #containerb {
-  height: 100%;
+  height: calc(100% + 50px);
   background: url('../img/imghd3.jpg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -177,7 +177,6 @@ h3 {
 {
   .txtprofil {
     width: 50%;
-    margin: 0 auto;
     font-size: 1em;
   }
 }

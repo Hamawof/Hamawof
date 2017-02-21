@@ -105,13 +105,11 @@ a, a:hover, a:focus {
 #fondaccueil {
   margin: 0;
   padding: 0;
-  background: url(img/fond3.jpg) no-repeat scroll 0 0;
-  -webkit-background-size: cover;
+  background: url(img/fond3.jpg) fixed;
   background-size: cover;
   position: absolute;
   width: 100%;
   height: calc(100% - 50px);
-  background-attachment: fixed;
   overflow: hidden;
 }
 

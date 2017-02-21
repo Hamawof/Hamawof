@@ -90,7 +90,7 @@ a, a:hover, a:focus {
 #profil {
   width: 170px;
   border-radius: 30%;
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 @media screen and (max-width: 767px)

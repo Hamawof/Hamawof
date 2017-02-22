@@ -153,6 +153,13 @@ a, a:hover, a:focus {
 {
   #me {
   background: url('../img/imghdsmall.jpeg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
 }
 

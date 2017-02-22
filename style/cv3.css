@@ -16,6 +16,11 @@ html {
   height: 100%;
 }
 
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
 a, a:hover, a:focus {
   color: #16B84E;
 }
@@ -146,21 +151,6 @@ a, a:hover, a:focus {
   background-size: cover;
   position: relative;
   width: 100%;
-}
-
-
-@media screen and (max-width: 767px)
-{
-  #me {
-  background: url('../img/imghdsmall.jpeg') no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  position: relative;
-  height: 100%;
-  width: 100%;
-}
 }
 
 #containerb {

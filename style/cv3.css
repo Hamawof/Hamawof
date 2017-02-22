@@ -172,10 +172,12 @@ h3 {
   color: #16B84E;
   font-weight: bold;
 }
+
 @media screen and (max-width: 767px)
 {
   .txtprofil {
-    width: 50%;
+    width: 350px;
     font-size: 1em;
+    height: 50%;
   }
 }

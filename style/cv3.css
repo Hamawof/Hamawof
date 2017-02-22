@@ -23,7 +23,7 @@ a, a:hover, a:focus {
 .heightmax {
   height: 100%;
   position: relative;
-  margin-top: 170px;
+  margin-top: 120px;
 }
 /* Navbar Responsive */
 
@@ -110,7 +110,7 @@ a, a:hover, a:focus {
   font-size: 40px;
   animation: bounce 0.35s ease infinite alternate;
   bottom: 10%;
-  margin-top: 160px;
+  margin-top: 100px;
 }
 
 .center {
@@ -152,7 +152,7 @@ a, a:hover, a:focus {
 @media screen and (max-width: 767px)
 {
   #me {
-  background: url('../img/imghdsmall.jpeg');
+  background: url('../img/imghdsmall.jpeg') no-repeat fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

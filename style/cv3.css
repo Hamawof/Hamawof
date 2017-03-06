@@ -43,6 +43,10 @@ a, a:hover, a:focus {
 {
   .navbar-nav {
   animation-duration: 1.5s;
+
+  h3 {
+    font-size: 1em;
+  }
 }
 }
 

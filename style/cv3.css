@@ -102,6 +102,7 @@ a, a:hover, a:focus {
 
 .white {
   background-color: white;
+
 }
 #profil {
   width: 170px;
@@ -239,7 +240,6 @@ h3 {
 	height: 35px;
 	line-height: 35px;
 	margin-bottom: 10px;
-	font-size: 1.3vw;
 }
 
 .comp li{
@@ -260,11 +260,21 @@ h3 {
 }
 
 .container-fluid {
-  top: calc(50% - 170px);
+  top: calc(50% - 150px);
   position: relative;
 }
 
 .skilltitle {
   font-size: 3em;
   padding-top: 30px;
+}
+
+
+
+.text-center {
+  font-size: 1em;
+}
+
+.blockskills {
+  font-size: 20px;
 }

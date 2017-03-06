@@ -260,6 +260,11 @@ h3 {
 }
 
 .container-fluid {
-  top: calc(50% - 125px);
-position: relative;
+  top: calc(50% - 170px);
+  position: relative;
+}
+
+.skilltitle {
+  font-size: 3em;
+  padding-top: 30px;
 }

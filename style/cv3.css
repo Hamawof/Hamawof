@@ -93,11 +93,16 @@ a, a:hover, a:focus {
 
 .row {
   margin: 0px;
+
+}
+
+.white {
+  background-color: white;
 }
 #profil {
   width: 170px;
   border-radius: 30%;
-  margin-top: 50px;
+  padding-bottom: 20px;
 }
 
 #titleofpage {
@@ -154,7 +159,7 @@ a, a:hover, a:focus {
 }
 
 #containerb {
-  height: 110%;
+  height: calc(100% + 50px);
   width: 100%;
   background: url('../img/imghd3.jpg') no-repeat fixed;
   -webkit-background-size: cover;
@@ -164,9 +169,23 @@ a, a:hover, a:focus {
   text-align: center;
   color: white;
   font-family: 'PT Sans Narrow', sans-serif;
-  position: relative
+  position: relative;
 }
 
+#containerc {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  position: relative;
+  background: url('../img/triangular.png');
+
+}
+
+li {
+    list-style: none;
+}
 @media (max-width: @iphone-screen) {
     #me, #containerb {
         background-attachment: scroll;
@@ -183,6 +202,8 @@ a, a:hover, a:focus {
 h3 {
   color: #16B84E;
   font-weight: bold;
+  margin: 0px;
+  font-size: 30px;
 }
 
 @media screen and (max-width: 767px)
@@ -192,4 +213,49 @@ h3 {
     font-size: 1em;
     height: 50%;
   }
+}
+
+// Compétences
+
+.comp{
+	background-color: white;
+	float: left;
+	width: calc((100% / 3) - 60px);
+	min-height: 150px;
+	vertical-align: top;
+	margin: 30px;
+	padding: 15px;
+	text-align: center;
+	border-left: 1px dashed rgb(50, 54, 89);
+	border-right: 1px dashed rgb(50, 54, 89);
+	border-radius: 10px;
+}
+
+.comp h3{
+	height: 35px;
+	line-height: 35px;
+	margin-bottom: 10px;
+	font-size: 1.3vw;
+}
+
+.comp li{
+	float: left;
+	width: calc(100% / 2);
+	margin: 5px 0 5px -5px;
+}
+
+.comp li img{
+	width: 32px;
+	height: 32px;
+}
+
+#section_competence article .comp {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 4px 15px #dadada;
+    margin-bottom: 30px;
+}
+
+.container-fluid {
+  top: calc(50% - 125px);
+position: relative;
 }

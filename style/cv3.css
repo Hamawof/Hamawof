@@ -275,3 +275,20 @@ h3 {
   font-size: 1em;
   color: white;
 }
+
+// Projets
+
+#containerd {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  position: relative;
+  background: url('../img/imghd3.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}

@@ -100,10 +100,6 @@ a, a:hover, a:focus {
 
 }
 
-.white {
-  background-color: white;
-
-}
 #profil {
   width: 170px;
   border-radius: 30%;
@@ -184,7 +180,11 @@ a, a:hover, a:focus {
   color: black;
   font-family: 'PT Sans Narrow', sans-serif;
   position: relative;
-  background: url('../img/triangular.png');
+  background: url('../img/imghd3.jpg') no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
 }
 
@@ -239,7 +239,7 @@ h3 {
 .comp h3{
 	height: 35px;
 	line-height: 35px;
-	margin-bottom: 10px;
+	margin-bottom: 25px;
 }
 
 .comp li{
@@ -260,7 +260,7 @@ h3 {
 }
 
 .container-fluid {
-  top: calc(50% - 150px);
+  top: calc(50% - 190px);
   position: relative;
 }
 
@@ -273,8 +273,5 @@ h3 {
 
 .text-center {
   font-size: 1em;
-}
-
-.blockskills {
-  font-size: 20px;
+  color: white;
 }
